@@ -1,0 +1,8 @@
+[
+    {"name": "Office-PC-01", "ip": "192.168.1.10", "type": "Computer", "status": "Online"},
+    {"name": "Server-DB01", "ip": "192.168.1.20", "type": "Server", "status": "Online"},
+    {"name": "Network-Printer", "ip": "192.168.1.30", "type": "Printer", "status": "Offline"},
+    {"name": "CCTV-FrontGate", "ip": "192.168.1.40", "type": "CCTV", "status": "Active"},
+    {"name": "VPN-Gateway", "ip": "192.168.1.50", "type": "VPN", "status": "Online"}
+  ]
+  

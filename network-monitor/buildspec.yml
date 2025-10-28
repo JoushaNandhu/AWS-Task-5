@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+      - apt-get update -y
+      - apt-get install -y python3 python3-pip
+      - pip3 install flask
+  build:
+    commands:
+      - echo Build phase - nothing to compile
+artifacts:
+  files:
+    - '**/*'

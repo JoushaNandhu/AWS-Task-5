@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Device Monitoring Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Network Device Monitoring Dashboard</h1>
+    <button onclick="location.reload()">🔄 Refresh</button>
+    <table>
+        <tr>
+            <th>Device Name</th>
+            <th>IP Address</th>
+            <th>Type</th>
+            <th>Status</th>
+        </tr>
+        {% for device in devices %}
+        <tr>
+            <td>{{ device.name }}</td>
+            <td>{{ device.ip }}</td>
+            <td>{{ device.type }}</td>
+            <td class="{{ device.status|lower }}">{{ device.status }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

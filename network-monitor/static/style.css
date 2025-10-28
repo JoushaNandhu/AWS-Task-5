@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f7;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    color: #004aad;
+  }
+  table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: white;
+  }
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  .online { color: green; font-weight: bold; }
+  .offline { color: red; font-weight: bold; }
+  .active { color: blue; font-weight: bold; }
+  .idle { color: orange; font-weight: bold; }
+  button {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: #0056b3;
+  }
+  
