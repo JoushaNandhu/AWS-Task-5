@@ -20,5 +20,6 @@ def get_devices():
     return jsonify(devices)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=22)
+    app.run(host='0.0.0.0', port=5000)
+
 
